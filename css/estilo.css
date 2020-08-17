@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  background: #f5f5f5;
+}
+body h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+body .tabs__links {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: table;
+  top: 1px;
+}
+body .tabs__links a {
+  display: block;
+  float: left;
+  line-height: 3;
+  background: #ddd;
+  padding: 0 1em;
+  text-decoration: none;
+  margin-right: 1px;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #bbb;
+  color: steelblue;
+  border-bottom: transparent;
+  position: relative;
+}
+body .tabs__links a.active {
+  z-index: 100;
+  background: #eee;
+  font-weight: bold;
+}
+body .tabs__contents {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+body .tabs__contents__item {
+  background: #eee;
+  padding: 1em;
+  border: 1px solid #bbb;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+body .tabs__contents__item.active {
+  display: block;
+}
+
+/*# sourceMappingURL=estilo.css.map */
